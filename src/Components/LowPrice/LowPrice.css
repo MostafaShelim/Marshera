@@ -1,0 +1,8 @@
+.card img{
+    height: 180px;
+    border: none;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightsteelblue;
+}

@@ -1,0 +1,9 @@
+.headCart{
+    height: 100px;
+    opacity: 0.85;
+    
+}
+.headCart .fa{
+    font-size: 70px;
+    color: orange;
+}

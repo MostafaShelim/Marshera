@@ -1,0 +1,10 @@
+.cart{
+    width: 100px;
+}
+.cart .fa{
+    font-size: 35px;
+    color: orange;
+}
+.navbar img{
+    border-radius: 50%;
+}
