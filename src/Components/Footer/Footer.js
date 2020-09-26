@@ -10,7 +10,6 @@ const Footer = () => {
                             <h2>Marshera</h2>
                             <p>Copyright <span>&copy;</span> 2020</p>
                             <p>Designed by: <a href="http://www.fb.com/mostafarumi/"> Moti Mia</a></p>
-                            <p>Email: <a href="www.mostafarmstu@gmail.com">www.mostafarmstu@gmail.com</a></p>
                             <button className="btn btn-primary">Salute Jhankar</button>
                         </div>
                     </div>

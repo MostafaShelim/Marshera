@@ -8,3 +8,6 @@
 .navbar img{
     border-radius: 50%;
 }
+.navbar{
+    box-shadow: 5px 5px 10px rgb(161, 90, 32);
+}

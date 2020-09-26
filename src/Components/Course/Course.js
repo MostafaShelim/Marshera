@@ -10,7 +10,7 @@ const Course = (props) => {
     return (
         <div>
             <br/>
-            <div className="bg-dark" id="course">
+            <div className="bg-dark">
                 <div className="heading text-center py-4">
                     <h3 className="display-4 text-info">Lower In Price</h3>
                     <p className="lead text-light">Lorem ipsum dolor sit amet consectetur </p>
@@ -21,7 +21,7 @@ const Course = (props) => {
             </div>
             
             <br/>
-            <div className="bg-dark" id="course">
+            <div className="bg-dark">
                 <div className="heading text-center py-4">
                     <h3 className="display-4 text-info">Middle In Price</h3>
                     <p className="lead text-light">Lorem ipsum dolor sit amet consectetur </p>
@@ -31,7 +31,7 @@ const Course = (props) => {
                 </div>
             </div>
             <br/>
-            <div className="bg-dark" id="course">
+            <div className="bg-dark">
                 <div className="heading text-center py-4">
                     <h3 className="display-4 text-info">Higher In Price</h3>
                     <p className="lead text-light">Lorem ipsum dolor sit amet consectetur </p>
@@ -40,7 +40,7 @@ const Course = (props) => {
                     {highProduct.map(prd => <HighPrice handleCart = {handleCart} product={prd}></HighPrice>)}
                 </div>
             </div>
-            <br/>
+            <br/><br/><br/>
         </div>
     );
 };

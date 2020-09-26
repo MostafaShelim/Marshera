@@ -7,9 +7,10 @@ const HighPrice = (props) => {
             <img className="card-img img-fluid" src={img} alt=""/>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
-                <p>Instructor: {instructor}</p>
-                <p>price: ${price}</p>
+                <p>Instructor: <strong>{instructor}</strong></p>
+                <p>price: <strong className="text-warning">${price}</strong></p>
                 <button onClick={() => props.handleCart(props.product)} className="btn btn-success" href=""><i className="fa fa-cart-plus mr-1"></i>Enroll Now</button>            </div>
+                <div id="contact"></div>
         </div>
     );
 };

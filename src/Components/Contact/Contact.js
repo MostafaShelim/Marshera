@@ -2,9 +2,11 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="bg-secondary text-light" id="contact">
+        <div className="bg-secondary text-light">
             <div className="heading text-center py-4 my-2 bg-dark">
                 <h3 className="display-4 text-danger">Contact Us</h3>
+                <p>Email: <a href="www.mostafarmstu@gmail.com">www.mostafarmstu@gmail.com</a></p>
+                <p>Phone: <span className="text-primary"> 01516-7151333</span></p>
             </div>
             <div class="modal-body">
                 <form>

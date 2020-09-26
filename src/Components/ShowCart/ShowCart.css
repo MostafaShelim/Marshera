@@ -1,9 +1,9 @@
 .headCart{
-    height: 100px;
-    opacity: 0.85;
-    
+    height: 85px;
+    opacity: 0.88;
+    box-shadow: 5px 5px 8px rgb(48, 40, 35);
 }
 .headCart .fa{
-    font-size: 70px;
+    font-size: 50px;
     color: orange;
 }
